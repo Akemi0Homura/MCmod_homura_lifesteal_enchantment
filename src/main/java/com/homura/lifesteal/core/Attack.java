@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 
 /**
  * 逻辑模块<br>
- * 附魔后，攻击敌人会释放闪电<br>
+ * 附魔后，攻击敌人会回血<br>
  * @author Akemi0Homura
  */
 @Mod.EventBusSubscriber(modid = "homura_lifesteal_enchantment")
@@ -40,3 +40,4 @@ public class Attack {
     }
 
 }
+
